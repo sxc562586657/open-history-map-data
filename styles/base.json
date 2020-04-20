@@ -1,29 +1,55 @@
 {
-    "layers": [
-        {
-            "layout": {
-                "visibility": "visible"
+    "name": "dlsgis_base",
+    "metadata": {
+        "mapbox:autocomposite": false,
+        "mapbox:groups": {
+            "1444849382550.77": {
+                "collapsed": false,
+                "name": "Water"
             },
-            "maxzoom": 9,
-            "type": "background",
-            "id": "background",
-            "minzoom": 0,
-            "paint": {
-                "background-color": "#10446C"
+            "1444849334699.1902": {
+                "collapsed": true,
+                "name": "Bridges"
+            },
+            "1444849242106.713": {
+                "collapsed": false,
+                "name": "Places"
+            },
+            "1444849364238.8171": {
+                "collapsed": false,
+                "name": "Buildings"
+            },
+            "1444849345966.4436": {
+                "collapsed": false,
+                "name": "Roads"
+            },
+            "1444849354174.1904": {
+                "collapsed": true,
+                "name": "Tunnels"
+            },
+            "1444849388993.3071": {
+                "collapsed": false,
+                "name": "Land"
             }
         },
+        "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t",
+        "mapbox:type": "template",
+        "openmaptiles:mapbox:owner": "openmaptiles",
+        "openmaptiles:version": "3.x"
+    },
+    "id": "dlsgis_base",
+    "bearing": 0,
+    "center": [
+        8.542,
+        47.372
+    ],
+    "glyphs": "https://cmaptile.allhistory.com/v1/fonts/{fontstack}/{range}.pbf",
+    "pitch": 0,
+    "sprite": "https://cmaptile.allhistory.com/v1/styles/dlsgis-history/sprite",
+    "version": 8,
+    "zoom": 2,
+    "layers": [
         {
-            "source-layer": "2B72DD149EB81583908697235",
-            "layout": {
-                "visibility": "visible"
-            },
-            "maxzoom": 9,
-            "type": "fill",
-            "minzoom": 0,
-            "id": "ADM_CON_S_NOW",
-            "paint": {
-                "fill-color": "#FFFDF7"
-            },
             "filter": [
                 "all",
                 [
@@ -32,20 +58,20 @@
                     "2B72DD149EB81583908697235"
                 ]
             ],
-            "source": "dlsgis_base"
-        },
-        {
-            "source-layer": "2B72DD9ACA901583908697277",
+            "type": "fill",
+            "paint": {
+                "fill-color": "#FFFDF7"
+            },
+            "source": "dlsgis_base",
             "layout": {
                 "visibility": "visible"
             },
+            "id": "ADM_CON_S_NOW",
             "maxzoom": 9,
-            "type": "fill",
-            "minzoom": 0,
-            "id": "lake",
-            "paint": {
-                "fill-color": "#10446C"
-            },
+            "source-layer": "2B72DD149EB81583908697235",
+            "minzoom": 0
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -54,20 +80,20 @@
                     "2B72DD9ACA901583908697277"
                 ]
             ],
-            "source": "dlsgis_base"
+            "type": "fill",
+            "paint": {
+                "fill-color": "#10446C"
+            },
+            "source": "dlsgis_base",
+            "layout": {
+                "visibility": "visible"
+            },
+            "id": "lake",
+            "maxzoom": 9,
+            "source-layer": "2B72DD9ACA901583908697277",
+            "minzoom": 0
         },
         {
-            "source-layer": "2B72DD9B32B01583908697287",
-            "layout": {
-                "text-allow-overlap": true,
-                "visibility": "visible",
-                "icon-allow-overlap": true,
-                "icon-image": "{ICON}",
-                "symbol-placement": "point",
-                "text-ignore-placement": true
-            },
-            "type": "symbol",
-            "id": "POI_SEA_P_NOW",
             "filter": [
                 "all",
                 [
@@ -76,26 +102,20 @@
                     "2B72DD9B32B01583908697287"
                 ]
             ],
-            "source": "dlsgis_base"
+            "type": "symbol",
+            "source": "dlsgis_base",
+            "layout": {
+                "icon-allow-overlap": true,
+                "visibility": "visible",
+                "text-allow-overlap": true,
+                "text-ignore-placement": true,
+                "symbol-placement": "point",
+                "icon-image": "{ICON}"
+            },
+            "id": "POI_SEA_P_NOW",
+            "source-layer": "2B72DD9B32B01583908697287"
         },
         {
-            "source-layer": "2B72DD9AC0F01583908697263",
-            "layout": {
-                "visibility": "visible"
-            },
-            "maxzoom": 8,
-            "type": "line",
-            "minzoom": 2,
-            "id": "country_border_now_un",
-            "paint": {
-                "line-dasharray": [
-                    6,
-                    6
-                ],
-                "line-color": "#9299AA",
-                "line-opacity": 1,
-                "line-width": 0.5
-            },
             "filter": [
                 "all",
                 [
@@ -104,22 +124,26 @@
                     "2B72DD9AC0F01583908697263"
                 ]
             ],
-            "source": "dlsgis_base"
-        },
-        {
-            "source-layer": "2B72DD1498601583908697239",
+            "type": "line",
+            "paint": {
+                "line-opacity": 1,
+                "line-width": 0.5,
+                "line-dasharray": [
+                    6,
+                    6
+                ],
+                "line-color": "#9299AA"
+            },
+            "source": "dlsgis_base",
             "layout": {
                 "visibility": "visible"
             },
+            "id": "country_border_now_un",
             "maxzoom": 8,
-            "type": "line",
-            "minzoom": 2,
-            "id": "country_border_now",
-            "paint": {
-                "line-color": "#9299AA",
-                "line-opacity": 1,
-                "line-width": 0.5
-            },
+            "source-layer": "2B72DD9AC0F01583908697263",
+            "minzoom": 2
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -128,26 +152,22 @@
                     "2B72DD1498601583908697239"
                 ]
             ],
-            "source": "dlsgis_base"
-        },
-        {
-            "source-layer": "2B72DD9AC8D01583908697274",
+            "type": "line",
+            "paint": {
+                "line-opacity": 1,
+                "line-width": 0.5,
+                "line-color": "#9299AA"
+            },
+            "source": "dlsgis_base",
             "layout": {
                 "visibility": "visible"
             },
+            "id": "country_border_now",
             "maxzoom": 8,
-            "type": "line",
-            "minzoom": 2,
-            "id": "country_border_now_china_un",
-            "paint": {
-                "line-dasharray": [
-                    6,
-                    6
-                ],
-                "line-color": "#9299AA",
-                "line-opacity": 1,
-                "line-width": 0.5
-            },
+            "source-layer": "2B72DD1498601583908697239",
+            "minzoom": 2
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -156,22 +176,26 @@
                     "2B72DD9AC8D01583908697274"
                 ]
             ],
-            "source": "dlsgis_base"
-        },
-        {
-            "source-layer": "2B72DD9AC3901583908697267",
+            "type": "line",
+            "paint": {
+                "line-opacity": 1,
+                "line-width": 0.5,
+                "line-dasharray": [
+                    6,
+                    6
+                ],
+                "line-color": "#9299AA"
+            },
+            "source": "dlsgis_base",
             "layout": {
                 "visibility": "visible"
             },
+            "id": "country_border_now_china_un",
             "maxzoom": 8,
-            "type": "line",
-            "minzoom": 2,
-            "id": "country_border_now_china",
-            "paint": {
-                "line-color": "#9299AA",
-                "line-opacity": 1,
-                "line-width": 0.5
-            },
+            "source-layer": "2B72DD9AC8D01583908697274",
+            "minzoom": 2
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -180,26 +204,22 @@
                     "2B72DD9AC3901583908697267"
                 ]
             ],
-            "source": "dlsgis_base"
-        },
-        {
-            "source-layer": "2B72DD164EF01583908697261",
+            "type": "line",
+            "paint": {
+                "line-opacity": 1,
+                "line-width": 0.5,
+                "line-color": "#9299AA"
+            },
+            "source": "dlsgis_base",
             "layout": {
                 "visibility": "visible"
             },
+            "id": "country_border_now_china",
             "maxzoom": 8,
-            "type": "line",
-            "minzoom": 2,
-            "id": "stop_fire",
-            "paint": {
-                "line-dasharray": [
-                    4,
-                    4
-                ],
-                "line-color": "#cccccc",
-                "line-opacity": 1,
-                "line-width": 0.8
-            },
+            "source-layer": "2B72DD9AC3901583908697267",
+            "minzoom": 2
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -208,22 +228,53 @@
                     "2B72DD164EF01583908697261"
                 ]
             ],
-            "source": "dlsgis_base"
+            "type": "line",
+            "paint": {
+                "line-opacity": 1,
+                "line-width": 0.8,
+                "line-dasharray": [
+                    4,
+                    4
+                ],
+                "line-color": "#cccccc"
+            },
+            "source": "dlsgis_base",
+            "layout": {
+                "visibility": "visible"
+            },
+            "id": "stop_fire",
+            "maxzoom": 8,
+            "source-layer": "2B72DD164EF01583908697261",
+            "minzoom": 2
         },
         {
-            "source-layer": "2B72DD164D301583908697257",
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "layer",
+                    "2B72DD164D301583908697257"
+                ]
+            ],
+            "type": "symbol",
+            "paint": {
+                "text-halo-color": "#ffffff",
+                "text-halo-width": 0.8,
+                "text-color": "#999999"
+            },
+            "source": "dlsgis_base",
             "layout": {
-                "text-justify": "center",
+                "text-padding": 0,
                 "text-font": [
                     "STHeiti-Regular"
                 ],
-                "icon-image": "",
-                "text-size": 12,
-                "text-max-width": 7,
+                "text-justify": "center",
                 "text-field": "{title}",
+                "text-max-width": 7,
+                "text-size": 12,
                 "text-offset": {
-                    "type": "categorical",
                     "property": "offset",
+                    "type": "categorical",
                     "stops": [
                         [
                             "[0,2]",
@@ -234,83 +285,18 @@
                         ]
                     ]
                 },
-                "text-padding": 0
+                "icon-image": ""
             },
-            "maxzoom": 9,
-            "type": "symbol",
-            "minzoom": 5,
             "id": "textpoint_border_5_18",
-            "paint": {
-                "text-halo-width": 0.8,
-                "text-halo-color": "#ffffff",
-                "text-color": "#999999"
-            },
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "layer",
-                    "2B72DD164D301583908697257"
-                ]
-            ],
-            "source": "dlsgis_base"
+            "maxzoom": 9,
+            "source-layer": "2B72DD164D301583908697257",
+            "minzoom": 5
         }
     ],
-    "pitch": 0,
-    "center": [
-        8.542,
-        47.372
-    ],
-    "zoom": 2,
-    "sprite": "https://cmaptile.allhistory.com/v1/styles/dlsgis-history/sprite",
-    "id": "dlsgis_base",
-    "name": "dlsgis_base",
-    "glyphs": "https://cmaptile.allhistory.com/v1/fonts/{fontstack}/{range}.pbf",
     "sources": {
         "dlsgis_base": {
-            "type": "vector",
-            "tiles": [
-                "https://tileserver-history-map.herokuapp.com/data/dlsgis_base/{z}/{x}/{y}.pbf"
-            ]
+            "type": "geojson",
+            "data": "https://raw.githubusercontent.com/sxc562586657/open-history-map-data/master/styles/base.json"
         }
-    },
-    "version": 8,
-    "bearing": 0,
-    "metadata": {
-        "openmaptiles:version": "3.x",
-        "openmaptiles:mapbox:owner": "openmaptiles",
-        "mapbox:autocomposite": false,
-        "mapbox:type": "template",
-        "mapbox:groups": {
-            "1444849382550.77": {
-                "collapsed": false,
-                "name": "Water"
-            },
-            "1444849242106.713": {
-                "collapsed": false,
-                "name": "Places"
-            },
-            "1444849388993.3071": {
-                "collapsed": false,
-                "name": "Land"
-            },
-            "1444849345966.4436": {
-                "collapsed": false,
-                "name": "Roads"
-            },
-            "1444849334699.1902": {
-                "collapsed": true,
-                "name": "Bridges"
-            },
-            "1444849364238.8171": {
-                "collapsed": false,
-                "name": "Buildings"
-            },
-            "1444849354174.1904": {
-                "collapsed": true,
-                "name": "Tunnels"
-            }
-        },
-        "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t"
     }
 }

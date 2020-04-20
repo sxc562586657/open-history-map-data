@@ -1,28 +1,55 @@
 {
-    "layers": [
-        {
-            "layout": {
-                "visibility": "visible"
+    "name": "DLSGIS His Regime AD336",
+    "metadata": {
+        "mapbox:autocomposite": false,
+        "mapbox:groups": {
+            "1444849382550.77": {
+                "collapsed": false,
+                "name": "Water"
             },
-            "maxzoom": 9,
-            "type": "background",
-            "id": "background",
-            "minzoom": 0,
-            "paint": {
-                "background-color": "#10446C"
+            "1444849334699.1902": {
+                "collapsed": true,
+                "name": "Bridges"
+            },
+            "1444849242106.713": {
+                "collapsed": false,
+                "name": "Places"
+            },
+            "1444849364238.8171": {
+                "collapsed": false,
+                "name": "Buildings"
+            },
+            "1444849345966.4436": {
+                "collapsed": false,
+                "name": "Roads"
+            },
+            "1444849354174.1904": {
+                "collapsed": true,
+                "name": "Tunnels"
+            },
+            "1444849388993.3071": {
+                "collapsed": false,
+                "name": "Land"
             }
         },
+        "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t",
+        "mapbox:type": "template",
+        "openmaptiles:mapbox:owner": "openmaptiles",
+        "openmaptiles:version": "3.x"
+    },
+    "id": "DLSGIS His Regime AD336",
+    "bearing": 0,
+    "center": [
+        8.542,
+        47.372
+    ],
+    "glyphs": "https://cmaptile.allhistory.com/v1/fonts/{fontstack}/{range}.pbf",
+    "pitch": 0,
+    "sprite": "https://cmaptile.allhistory.com/v1/styles/dlsgis-history/sprite",
+    "version": 8,
+    "zoom": 2,
+    "layers": [
         {
-            "layout": {
-                "visibility": "visible"
-            },
-            "maxzoom": 9,
-            "type": "fill",
-            "minzoom": 0,
-            "id": "ADM_CON_S_NOW",
-            "paint": {
-                "fill-color": "#FFFDF7"
-            },
             "filter": [
                 "all",
                 [
@@ -31,25 +58,19 @@
                     "2B72DD149EB81583908697235"
                 ]
             ],
-            "source": "dlsgis_base"
-        },
-        {
+            "type": "fill",
+            "paint": {
+                "fill-color": "#FFFDF7"
+            },
+            "source": "dlsgis_base",
             "layout": {
                 "visibility": "visible"
             },
-            "maxzoom": 8,
-            "type": "line",
-            "minzoom": 2,
-            "id": "country_border_now_un",
-            "paint": {
-                "line-dasharray": [
-                    6,
-                    6
-                ],
-                "line-color": "#9299AA",
-                "line-opacity": 1,
-                "line-width": 0.5
-            },
+            "id": "ADM_CON_S_NOW",
+            "maxzoom": 9,
+            "minzoom": 0
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -58,21 +79,25 @@
                     "2B72DD9AC0F01583908697263"
                 ]
             ],
-            "source": "dlsgis_base"
-        },
-        {
+            "type": "line",
+            "paint": {
+                "line-opacity": 1,
+                "line-width": 0.5,
+                "line-dasharray": [
+                    6,
+                    6
+                ],
+                "line-color": "#9299AA"
+            },
+            "source": "dlsgis_base",
             "layout": {
                 "visibility": "visible"
             },
+            "id": "country_border_now_un",
             "maxzoom": 8,
-            "type": "line",
-            "minzoom": 2,
-            "id": "country_border_now",
-            "paint": {
-                "line-color": "#9299AA",
-                "line-opacity": 1,
-                "line-width": 0.5
-            },
+            "minzoom": 2
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -81,25 +106,21 @@
                     "2B72DD1498601583908697239"
                 ]
             ],
-            "source": "dlsgis_base"
-        },
-        {
+            "type": "line",
+            "paint": {
+                "line-opacity": 1,
+                "line-width": 0.5,
+                "line-color": "#9299AA"
+            },
+            "source": "dlsgis_base",
             "layout": {
                 "visibility": "visible"
             },
+            "id": "country_border_now",
             "maxzoom": 8,
-            "type": "line",
-            "minzoom": 2,
-            "id": "country_border_now_china_un",
-            "paint": {
-                "line-dasharray": [
-                    6,
-                    6
-                ],
-                "line-color": "#9299AA",
-                "line-opacity": 1,
-                "line-width": 0.5
-            },
+            "minzoom": 2
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -108,21 +129,25 @@
                     "2B72DD9AC8D01583908697274"
                 ]
             ],
-            "source": "dlsgis_base"
-        },
-        {
+            "type": "line",
+            "paint": {
+                "line-opacity": 1,
+                "line-width": 0.5,
+                "line-dasharray": [
+                    6,
+                    6
+                ],
+                "line-color": "#9299AA"
+            },
+            "source": "dlsgis_base",
             "layout": {
                 "visibility": "visible"
             },
+            "id": "country_border_now_china_un",
             "maxzoom": 8,
-            "type": "line",
-            "minzoom": 2,
-            "id": "country_border_now_china",
-            "paint": {
-                "line-color": "#9299AA",
-                "line-opacity": 1,
-                "line-width": 0.5
-            },
+            "minzoom": 2
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -131,25 +156,21 @@
                     "2B72DD9AC3901583908697267"
                 ]
             ],
-            "source": "dlsgis_base"
-        },
-        {
+            "type": "line",
+            "paint": {
+                "line-opacity": 1,
+                "line-width": 0.5,
+                "line-color": "#9299AA"
+            },
+            "source": "dlsgis_base",
             "layout": {
                 "visibility": "visible"
             },
+            "id": "country_border_now_china",
             "maxzoom": 8,
-            "type": "line",
-            "minzoom": 2,
-            "id": "stop_fire",
-            "paint": {
-                "line-dasharray": [
-                    4,
-                    4
-                ],
-                "line-color": "#cccccc",
-                "line-opacity": 1,
-                "line-width": 0.8
-            },
+            "minzoom": 2
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -158,21 +179,52 @@
                     "2B72DD164EF01583908697261"
                 ]
             ],
-            "source": "dlsgis_base"
+            "type": "line",
+            "paint": {
+                "line-opacity": 1,
+                "line-width": 0.8,
+                "line-dasharray": [
+                    4,
+                    4
+                ],
+                "line-color": "#cccccc"
+            },
+            "source": "dlsgis_base",
+            "layout": {
+                "visibility": "visible"
+            },
+            "id": "stop_fire",
+            "maxzoom": 8,
+            "minzoom": 2
         },
         {
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "layer",
+                    "2B72DD164D301583908697257"
+                ]
+            ],
+            "type": "symbol",
+            "paint": {
+                "text-halo-color": "#ffffff",
+                "text-halo-width": 0.8,
+                "text-color": "#999999"
+            },
+            "source": "dlsgis_base",
             "layout": {
-                "text-justify": "center",
+                "text-padding": 0,
                 "text-font": [
                     "STHeiti-Regular"
                 ],
-                "icon-image": "",
-                "text-size": 12,
-                "text-max-width": 7,
+                "text-justify": "center",
                 "text-field": "{title}",
+                "text-max-width": 7,
+                "text-size": 12,
                 "text-offset": {
-                    "type": "categorical",
                     "property": "offset",
+                    "type": "categorical",
                     "stops": [
                         [
                             "[0,2]",
@@ -183,45 +235,13 @@
                         ]
                     ]
                 },
-                "text-padding": 0
+                "icon-image": ""
             },
-            "maxzoom": 9,
-            "type": "symbol",
-            "minzoom": 5,
             "id": "textpoint_border_5_18",
-            "paint": {
-                "text-halo-width": 0.8,
-                "text-halo-color": "#ffffff",
-                "text-color": "#999999"
-            },
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "layer",
-                    "2B72DD164D301583908697257"
-                ]
-            ],
-            "source": "dlsgis_base"
+            "maxzoom": 9,
+            "minzoom": 5
         },
         {
-            "layout": {
-                "visibility": "visible"
-            },
-            "maxzoom": 9,
-            "type": "fill",
-            "minzoom": 0,
-            "id": "country",
-            "paint": {
-                "fill-color": {
-                    "type": "identity",
-                    "property": "color"
-                },
-                "fill-opacity": {
-                    "type": "identity",
-                    "property": "coloropacity"
-                }
-            },
             "filter": [
                 "all",
                 [
@@ -235,26 +255,26 @@
                     "103:1585281726864"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "fill",
+            "paint": {
+                "fill-opacity": {
+                    "property": "coloropacity",
+                    "type": "identity"
+                },
+                "fill-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
                 "visibility": "visible"
             },
+            "id": "country",
             "maxzoom": 9,
-            "type": "fill",
-            "minzoom": 0,
-            "id": "country_hover",
-            "paint": {
-                "fill-color": {
-                    "type": "identity",
-                    "property": "color"
-                },
-                "fill-opacity": {
-                    "type": "identity",
-                    "property": "colorhoveropacity"
-                }
-            },
+            "minzoom": 0
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -268,26 +288,26 @@
                     ""
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "fill",
+            "paint": {
+                "fill-opacity": {
+                    "property": "colorhoveropacity",
+                    "type": "identity"
+                },
+                "fill-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
                 "visibility": "visible"
             },
+            "id": "country_hover",
             "maxzoom": 9,
-            "type": "fill",
-            "minzoom": 0,
-            "id": "country_comb_con",
-            "paint": {
-                "fill-color": {
-                    "type": "identity",
-                    "property": "color"
-                },
-                "fill-opacity": {
-                    "type": "identity",
-                    "property": "coloropacity"
-                }
-            },
+            "minzoom": 0
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -296,26 +316,26 @@
                     "7F5D7BFD81601585559073403"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "fill",
+            "paint": {
+                "fill-opacity": {
+                    "property": "coloropacity",
+                    "type": "identity"
+                },
+                "fill-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
                 "visibility": "visible"
             },
+            "id": "country_comb_con",
             "maxzoom": 9,
-            "type": "fill",
-            "minzoom": 0,
-            "id": "country_comb_hover",
-            "paint": {
-                "fill-color": {
-                    "type": "identity",
-                    "property": "color"
-                },
-                "fill-opacity": {
-                    "type": "identity",
-                    "property": "colorhoveropacity"
-                }
-            },
+            "minzoom": 0
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -329,19 +349,26 @@
                     ""
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "fill",
+            "paint": {
+                "fill-opacity": {
+                    "property": "colorhoveropacity",
+                    "type": "identity"
+                },
+                "fill-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
                 "visibility": "visible"
             },
+            "id": "country_comb_hover",
             "maxzoom": 9,
-            "type": "fill",
-            "minzoom": 0,
-            "id": "lake",
-            "paint": {
-                "fill-color": "#10446C"
-            },
+            "minzoom": 0
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -350,77 +377,73 @@
                     "2B72DD9ACA901583908697277"
                 ]
             ],
-            "source": "dlsgis_base"
-        },
-        {
-            "layout": {
-                "visibility": "visible"
-            },
-            "maxzoom": 9,
             "type": "fill",
-            "minzoom": 12,
-            "id": "building",
             "paint": {
+                "fill-color": "#10446C"
+            },
+            "source": "dlsgis_base",
+            "layout": {
+                "visibility": "visible"
+            },
+            "id": "lake",
+            "maxzoom": 9,
+            "minzoom": 0
+        },
+        {
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "layer",
+                    "7F5D7BFD84701585559073407"
+                ]
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-opacity": 1,
                 "fill-color": {
-                    "type": "identity",
-                    "property": "color"
-                },
-                "fill-opacity": 1
-            },
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "layer",
-                    "7F5D7BFD84701585559073407"
-                ]
-            ],
-            "source": "dlsgis_his_regime"
-        },
-        {
-            "layout": {
-                "visibility": "visible"
-            },
-            "maxzoom": 9,
-            "type": "line",
-            "minzoom": 12,
-            "id": "building_line",
-            "paint": {
-                "line-color": {
-                    "type": "identity",
-                    "property": "bordercolor"
-                },
-                "line-opacity": {
-                    "type": "identity",
-                    "property": "opacity"
-                },
-                "line-width": 1
-            },
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "layer",
-                    "7F5D7BFD84701585559073407"
-                ]
-            ],
-            "source": "dlsgis_his_regime"
-        },
-        {
-            "layout": {
-                "visibility": "visible"
-            },
-            "maxzoom": 9,
-            "type": "line",
-            "minzoom": 12,
-            "id": "wall_line",
-            "paint": {
-                "line-pattern": "wall",
-                "line-width": {
-                    "type": "identity",
-                    "property": "width"
+                    "property": "color",
+                    "type": "identity"
                 }
             },
+            "source": "dlsgis_his_regime",
+            "layout": {
+                "visibility": "visible"
+            },
+            "id": "building",
+            "maxzoom": 9,
+            "minzoom": 12
+        },
+        {
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "layer",
+                    "7F5D7BFD84701585559073407"
+                ]
+            ],
+            "type": "line",
+            "paint": {
+                "line-opacity": {
+                    "property": "opacity",
+                    "type": "identity"
+                },
+                "line-width": 1,
+                "line-color": {
+                    "property": "bordercolor",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
+            "layout": {
+                "visibility": "visible"
+            },
+            "id": "building_line",
+            "maxzoom": 9,
+            "minzoom": 12
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -429,23 +452,23 @@
                     "7F5D7B2214E01585559073428"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
-            "layout": {
-                "visibility": "visible"
-            },
-            "maxzoom": 9,
             "type": "line",
-            "minzoom": 12,
-            "id": "palace_line",
             "paint": {
                 "line-pattern": "wall",
                 "line-width": {
-                    "type": "identity",
-                    "property": "width"
+                    "property": "width",
+                    "type": "identity"
                 }
             },
+            "source": "dlsgis_his_regime",
+            "layout": {
+                "visibility": "visible"
+            },
+            "id": "wall_line",
+            "maxzoom": 9,
+            "minzoom": 12
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -454,30 +477,23 @@
                     "7F5D7B306A201585559073413"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "line",
+            "paint": {
+                "line-pattern": "wall",
+                "line-width": {
+                    "property": "width",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
                 "visibility": "visible"
             },
+            "id": "palace_line",
             "maxzoom": 9,
-            "type": "line",
-            "minzoom": 12,
-            "id": "else_line",
-            "paint": {
-                "line-color": {
-                    "type": "identity",
-                    "property": "color"
-                },
-                "line-opacity": {
-                    "type": "identity",
-                    "property": "borderopacity"
-                },
-                "line-width": {
-                    "type": "identity",
-                    "property": "width"
-                }
-            },
+            "minzoom": 12
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -486,27 +502,30 @@
                     "7F5D7B221CC01585559073422"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "line",
+            "paint": {
+                "line-opacity": {
+                    "property": "borderopacity",
+                    "type": "identity"
+                },
+                "line-width": {
+                    "property": "width",
+                    "type": "identity"
+                },
+                "line-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
                 "visibility": "visible"
             },
+            "id": "else_line",
             "maxzoom": 9,
-            "type": "line",
-            "minzoom": 0,
-            "id": "countryborder",
-            "paint": {
-                "line-color": {
-                    "type": "identity",
-                    "property": "bordercolor"
-                },
-                "line-opacity": {
-                    "type": "identity",
-                    "property": "borderopacity"
-                },
-                "line-width": 0.8
-            },
+            "minzoom": 12
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -520,27 +539,27 @@
                     "103:1585281726864"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "line",
+            "paint": {
+                "line-opacity": {
+                    "property": "borderopacity",
+                    "type": "identity"
+                },
+                "line-width": 0.8,
+                "line-color": {
+                    "property": "bordercolor",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
                 "visibility": "visible"
             },
+            "id": "countryborder",
             "maxzoom": 9,
-            "type": "line",
-            "minzoom": 0,
-            "id": "countryborder_hover",
-            "paint": {
-                "line-color": {
-                    "type": "identity",
-                    "property": "borderhovercolor"
-                },
-                "line-opacity": {
-                    "type": "identity",
-                    "property": "borderhoveropacity"
-                },
-                "line-width": 2
-            },
+            "minzoom": 0
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -554,27 +573,27 @@
                     ""
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "line",
+            "paint": {
+                "line-opacity": {
+                    "property": "borderhoveropacity",
+                    "type": "identity"
+                },
+                "line-width": 2,
+                "line-color": {
+                    "property": "borderhovercolor",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
                 "visibility": "visible"
             },
+            "id": "countryborder_hover",
             "maxzoom": 9,
-            "type": "line",
-            "minzoom": 0,
-            "id": "country_comb",
-            "paint": {
-                "line-color": {
-                    "type": "identity",
-                    "property": "bordercolor"
-                },
-                "line-opacity": {
-                    "type": "identity",
-                    "property": "borderopacity"
-                },
-                "line-width": 0.8
-            },
+            "minzoom": 0
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -587,27 +606,27 @@
                     "oid"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "line",
+            "paint": {
+                "line-opacity": {
+                    "property": "borderopacity",
+                    "type": "identity"
+                },
+                "line-width": 0.8,
+                "line-color": {
+                    "property": "bordercolor",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
                 "visibility": "visible"
             },
+            "id": "country_comb",
             "maxzoom": 9,
-            "type": "line",
-            "minzoom": 0,
-            "id": "country_comb_line_hover",
-            "paint": {
-                "line-color": {
-                    "type": "identity",
-                    "property": "borderhovercolor"
-                },
-                "line-opacity": {
-                    "type": "identity",
-                    "property": "borderhoveropacity"
-                },
-                "line-width": 3
-            },
+            "minzoom": 0
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -621,62 +640,59 @@
                     ""
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "line",
+            "paint": {
+                "line-opacity": {
+                    "property": "borderhoveropacity",
+                    "type": "identity"
+                },
+                "line-width": 3,
+                "line-color": {
+                    "property": "borderhovercolor",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
                 "visibility": "visible"
             },
+            "id": "country_comb_line_hover",
             "maxzoom": 9,
+            "minzoom": 0
+        },
+        {
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "layer",
+                    "7F5D7B2212B01585559073429"
+                ]
+            ],
             "type": "line",
-            "minzoom": 4,
+            "paint": {
+                "line-opacity": {
+                    "property": "borderopacity",
+                    "type": "identity"
+                },
+                "line-width": {
+                    "property": "halowidth",
+                    "type": "identity"
+                },
+                "line-color": {
+                    "property": "bordercolor",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
+            "layout": {
+                "visibility": "visible"
+            },
             "id": "border_line_4_9_halo",
-            "paint": {
-                "line-color": {
-                    "type": "identity",
-                    "property": "bordercolor"
-                },
-                "line-opacity": {
-                    "type": "identity",
-                    "property": "borderopacity"
-                },
-                "line-width": {
-                    "type": "identity",
-                    "property": "halowidth"
-                }
-            },
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "layer",
-                    "7F5D7B2212B01585559073429"
-                ]
-            ],
-            "source": "dlsgis_his_regime"
-        },
-        {
-            "layout": {
-                "visibility": "visible"
-            },
             "maxzoom": 9,
-            "type": "line",
-            "minzoom": 4,
-            "id": "border_line_4_9",
-            "paint": {
-                "line-color": {
-                    "type": "identity",
-                    "property": "color"
-                },
-                "line-opacity": {
-                    "type": "identity",
-                    "property": "opacity"
-                },
-                "line-width": {
-                    "type": "identity",
-                    "property": "width"
-                }
-            },
+            "minzoom": 4
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -685,62 +701,62 @@
                     "7F5D7B2212B01585559073429"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "line",
+            "paint": {
+                "line-opacity": {
+                    "property": "opacity",
+                    "type": "identity"
+                },
+                "line-width": {
+                    "property": "width",
+                    "type": "identity"
+                },
+                "line-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
                 "visibility": "visible"
             },
-            "maxzoom": 4,
+            "id": "border_line_4_9",
+            "maxzoom": 9,
+            "minzoom": 4
+        },
+        {
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "layer",
+                    "7F5D7BFD1B381585559073397"
+                ]
+            ],
             "type": "line",
-            "minzoom": 3,
+            "paint": {
+                "line-opacity": {
+                    "property": "borderopacity",
+                    "type": "identity"
+                },
+                "line-width": {
+                    "property": "halowidth",
+                    "type": "identity"
+                },
+                "line-color": {
+                    "property": "bordercolor",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
+            "layout": {
+                "visibility": "visible"
+            },
             "id": "border_line_3_4_halo",
-            "paint": {
-                "line-color": {
-                    "type": "identity",
-                    "property": "bordercolor"
-                },
-                "line-opacity": {
-                    "type": "identity",
-                    "property": "borderopacity"
-                },
-                "line-width": {
-                    "type": "identity",
-                    "property": "halowidth"
-                }
-            },
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "layer",
-                    "7F5D7BFD1B381585559073397"
-                ]
-            ],
-            "source": "dlsgis_his_regime"
-        },
-        {
-            "layout": {
-                "visibility": "visible"
-            },
             "maxzoom": 4,
-            "type": "line",
-            "minzoom": 3,
-            "id": "border_line_3_4",
-            "paint": {
-                "line-color": {
-                    "type": "identity",
-                    "property": "color"
-                },
-                "line-opacity": {
-                    "type": "identity",
-                    "property": "opacity"
-                },
-                "line-width": {
-                    "type": "identity",
-                    "property": "width"
-                }
-            },
+            "minzoom": 3
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -749,30 +765,62 @@
                     "7F5D7BFD1B381585559073397"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "line",
+            "paint": {
+                "line-opacity": {
+                    "property": "opacity",
+                    "type": "identity"
+                },
+                "line-width": {
+                    "property": "width",
+                    "type": "identity"
+                },
+                "line-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
                 "visibility": "visible"
             },
-            "maxzoom": 3,
+            "id": "border_line_3_4",
+            "maxzoom": 4,
+            "minzoom": 3
+        },
+        {
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "layer",
+                    "7F5D7BFD80481585559073399"
+                ]
+            ],
             "type": "line",
-            "minzoom": 2,
+            "paint": {
+                "line-opacity": {
+                    "property": "borderopacity",
+                    "type": "identity"
+                },
+                "line-width": {
+                    "property": "halowidth",
+                    "type": "identity"
+                },
+                "line-color": {
+                    "property": "bordercolor",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
+            "layout": {
+                "visibility": "visible"
+            },
             "id": "border_line_2_3_halo",
-            "paint": {
-                "line-color": {
-                    "type": "identity",
-                    "property": "bordercolor"
-                },
-                "line-opacity": {
-                    "type": "identity",
-                    "property": "borderopacity"
-                },
-                "line-width": {
-                    "type": "identity",
-                    "property": "halowidth"
-                }
-            },
+            "maxzoom": 3,
+            "minzoom": 2
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -781,66 +829,30 @@
                     "7F5D7BFD80481585559073399"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "line",
+            "paint": {
+                "line-opacity": {
+                    "property": "opacity",
+                    "type": "identity"
+                },
+                "line-width": {
+                    "property": "width",
+                    "type": "identity"
+                },
+                "line-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
                 "visibility": "visible"
             },
-            "maxzoom": 3,
-            "type": "line",
-            "minzoom": 2,
             "id": "border_line_2_3",
-            "paint": {
-                "line-color": {
-                    "type": "identity",
-                    "property": "color"
-                },
-                "line-opacity": {
-                    "type": "identity",
-                    "property": "opacity"
-                },
-                "line-width": {
-                    "type": "identity",
-                    "property": "width"
-                }
-            },
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "layer",
-                    "7F5D7BFD80481585559073399"
-                ]
-            ],
-            "source": "dlsgis_his_regime"
+            "maxzoom": 3,
+            "minzoom": 2
         },
         {
-            "layout": {
-                "visibility": "visible"
-            },
-            "maxzoom": 3,
-            "type": "line",
-            "minzoom": 2,
-            "id": "international_date_line",
-            "paint": {
-                "line-dasharray": [
-                    4,
-                    2
-                ],
-                "line-color": {
-                    "type": "identity",
-                    "property": "color"
-                },
-                "line-opacity": {
-                    "type": "identity",
-                    "property": "opacity"
-                },
-                "line-width": {
-                    "type": "identity",
-                    "property": "width"
-                }
-            },
             "filter": [
                 "all",
                 [
@@ -849,255 +861,34 @@
                     "7F5D7B2217481585559073417"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
-            "layout": {
-                "visibility": "visible"
-            },
-            "maxzoom": 3,
             "type": "line",
-            "minzoom": 0,
-            "id": "history_china_line_solid_0_3",
             "paint": {
+                "line-opacity": {
+                    "property": "opacity",
+                    "type": "identity"
+                },
+                "line-width": {
+                    "property": "width",
+                    "type": "identity"
+                },
                 "line-dasharray": [
-                    5,
-                    3
+                    4,
+                    2
                 ],
-                "line-color": "rgba(196, 196, 196, 0.7)",
-                "line-width": 1
+                "line-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
             },
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "layer",
-                    "7F752B2BAA201586586642447"
-                ]
-            ],
-            "source": "dlsgis_attachment"
-        },
-        {
+            "source": "dlsgis_his_regime",
             "layout": {
                 "visibility": "visible"
             },
-            "maxzoom": 8,
-            "type": "line",
-            "minzoom": 3,
-            "id": "history_china_line_solid_3_8",
-            "paint": {
-                "line-dasharray": [
-                    5,
-                    3
-                ],
-                "line-color": "rgba(143, 143, 143, 0.7)",
-                "line-width": 2
-            },
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "layer",
-                    "7F752B2BAA201586586642447"
-                ]
-            ],
-            "source": "dlsgis_attachment"
-        },
-        {
-            "layout": {
-                "visibility": "visible"
-            },
+            "id": "international_date_line",
             "maxzoom": 3,
-            "type": "line",
-            "minzoom": 0,
-            "id": "history_china_line_dotted_0_3",
-            "paint": {
-                "line-color": "rgba(196, 196, 196, 0.7)",
-                "line-width": 1
-            },
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "layer",
-                    "7F752B2C7A901586586642469"
-                ]
-            ],
-            "source": "dlsgis_attachment"
+            "minzoom": 2
         },
         {
-            "layout": {
-                "visibility": "visible"
-            },
-            "maxzoom": 8,
-            "type": "line",
-            "minzoom": 3,
-            "id": "history_china_line_dotted_3_8",
-            "paint": {
-                "line-color": "rgba(143, 143, 143, 0.7)",
-                "line-width": 2
-            },
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "layer",
-                    "7F752B2C7A901586586642469"
-                ]
-            ],
-            "source": "dlsgis_attachment"
-        },
-        {
-            "layout": {
-                "text-justify": "center",
-                "text-font": [
-                    "STHeiti-Regular"
-                ],
-                "icon-image": "",
-                "text-size": 14,
-                "text-max-width": 7,
-                "text-field": "{title}",
-                "text-offset": [
-                    0,
-                    0
-                ],
-                "text-padding": 0
-            },
-            "maxzoom": 5,
-            "type": "symbol",
-            "minzoom": 4,
-            "id": "textpoint_history_china_line_5",
-            "paint": {
-                "text-halo-width": 1.5,
-                "text-halo-color": "#FFFFFF",
-                "text-color": "#B61100"
-            },
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "layer",
-                    "7F752B2CA7B81586586642500"
-                ]
-            ],
-            "source": "dlsgis_attachment"
-        },
-        {
-            "layout": {
-                "text-justify": "center",
-                "text-font": [
-                    "STHeiti-Regular"
-                ],
-                "icon-image": "",
-                "text-size": 14,
-                "text-max-width": 7,
-                "text-field": "{title}",
-                "text-offset": [
-                    0,
-                    0
-                ],
-                "text-padding": 0
-            },
-            "maxzoom": 6,
-            "type": "symbol",
-            "minzoom": 5,
-            "id": "textpoint_history_china_line_6",
-            "paint": {
-                "text-halo-width": 1.5,
-                "text-halo-color": "#FFFFFF",
-                "text-color": "#B61100"
-            },
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "layer",
-                    "7F752B2CA3581586586642494"
-                ]
-            ],
-            "source": "dlsgis_attachment"
-        },
-        {
-            "layout": {
-                "text-justify": "center",
-                "text-font": [
-                    "STHeiti-Regular"
-                ],
-                "icon-image": "",
-                "text-size": 14,
-                "text-max-width": 7,
-                "text-field": "{title}",
-                "text-offset": [
-                    0,
-                    0
-                ],
-                "text-padding": 0
-            },
-            "maxzoom": 7,
-            "type": "symbol",
-            "minzoom": 6,
-            "id": "textpoint_history_china_line_7",
-            "paint": {
-                "text-halo-width": 1.5,
-                "text-halo-color": "#FFFFFF",
-                "text-color": "#B61100"
-            },
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "layer",
-                    "7F752B2C73581586586642474"
-                ]
-            ],
-            "source": "dlsgis_attachment"
-        },
-        {
-            "layout": {
-                "text-justify": "center",
-                "text-font": [
-                    "STHeiti-Regular"
-                ],
-                "icon-image": "",
-                "text-size": 14,
-                "text-max-width": 7,
-                "text-field": "{title}",
-                "text-offset": [
-                    0,
-                    0
-                ],
-                "text-padding": 0
-            },
-            "maxzoom": 8,
-            "type": "symbol",
-            "minzoom": 7,
-            "id": "textpoint_history_china_line_8",
-            "paint": {
-                "text-halo-width": 1.5,
-                "text-halo-color": "#FFFFFF",
-                "text-color": "#B61100"
-            },
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "layer",
-                    "7F752B2CAEB81586586642509"
-                ]
-            ],
-            "source": "dlsgis_attachment"
-        },
-        {
-            "layout": {
-                "text-allow-overlap": true,
-                "visibility": "visible",
-                "icon-allow-overlap": true,
-                "icon-image": "{ICON}",
-                "symbol-placement": "point",
-                "text-ignore-placement": true
-            },
-            "type": "symbol",
-            "id": "POI_SEA_P_NOW",
             "filter": [
                 "all",
                 [
@@ -1106,38 +897,19 @@
                     "2B72DD9B32B01583908697287"
                 ]
             ],
-            "source": "dlsgis_base"
+            "id": "POI_SEA_P_NOW",
+            "type": "symbol",
+            "source": "dlsgis_base",
+            "layout": {
+                "icon-allow-overlap": true,
+                "visibility": "visible",
+                "text-allow-overlap": true,
+                "text-ignore-placement": true,
+                "symbol-placement": "point",
+                "icon-image": "{ICON}"
+            }
         },
         {
-            "layout": {
-                "text-justify": "center",
-                "text-font": [
-                    "STHeiti-Regular"
-                ],
-                "icon-image": "{icon}",
-                "text-size": {
-                    "type": "identity",
-                    "property": "fontsize"
-                },
-                "text-max-width": 7,
-                "text-field": "{title}",
-                "icon-size": 1
-            },
-            "maxzoom": 9,
-            "type": "symbol",
-            "minzoom": 13,
-            "id": "textpoint_building",
-            "paint": {
-                "text-halo-width": {
-                    "type": "identity",
-                    "property": "halo"
-                },
-                "text-halo-color": "#ffffff",
-                "text-color": {
-                    "type": "identity",
-                    "property": "color"
-                }
-            },
             "filter": [
                 "all",
                 [
@@ -1146,43 +918,38 @@
                     "7F5D7AE86DA01585559073393"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-color": "#ffffff",
+                "text-halo-width": {
+                    "property": "halo",
+                    "type": "identity"
+                },
+                "text-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
-                "text-justify": "center",
+                "icon-size": 1,
                 "text-font": [
                     "STHeiti-Regular"
                 ],
-                "icon-image": "{icon}",
-                "text-size": {
-                    "type": "identity",
-                    "property": "fontsize"
-                },
-                "text-max-width": 7,
+                "text-justify": "center",
                 "text-field": "{title}",
-                "text-offset": {
-                    "type": "identity",
-                    "property": "offset"
+                "text-max-width": 7,
+                "text-size": {
+                    "property": "fontsize",
+                    "type": "identity"
                 },
-                "icon-size": 1,
-                "text-padding": 2
+                "icon-image": "{icon}"
             },
+            "id": "textpoint_building",
             "maxzoom": 9,
-            "type": "symbol",
-            "minzoom": 5,
-            "id": "textpoint_island",
-            "paint": {
-                "text-halo-width": {
-                    "type": "identity",
-                    "property": "halo"
-                },
-                "text-halo-color": "#ffffff",
-                "text-color": {
-                    "type": "identity",
-                    "property": "color"
-                }
-            },
+            "minzoom": 13
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -1191,43 +958,43 @@
                     "7F5D7BFD86681585559073406"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-color": "#ffffff",
+                "text-halo-width": {
+                    "property": "halo",
+                    "type": "identity"
+                },
+                "text-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
-                "text-justify": "center",
+                "icon-size": 1,
                 "text-font": [
                     "STHeiti-Regular"
                 ],
-                "icon-image": "{icon}",
-                "text-size": {
-                    "type": "identity",
-                    "property": "fontsize"
-                },
-                "text-max-width": 7,
+                "text-padding": 2,
+                "text-justify": "center",
                 "text-field": "{title}",
+                "text-max-width": 7,
+                "text-size": {
+                    "property": "fontsize",
+                    "type": "identity"
+                },
                 "text-offset": {
-                    "type": "identity",
-                    "property": "offset"
+                    "property": "offset",
+                    "type": "identity"
                 },
-                "icon-size": 1,
-                "text-padding": 2
+                "icon-image": "{icon}"
             },
+            "id": "textpoint_island",
             "maxzoom": 9,
-            "type": "symbol",
-            "minzoom": 13,
-            "id": "textpoint_relique",
-            "paint": {
-                "text-halo-width": {
-                    "type": "identity",
-                    "property": "halo"
-                },
-                "text-halo-color": "#ffffff",
-                "text-color": {
-                    "type": "identity",
-                    "property": "color"
-                }
-            },
+            "minzoom": 5
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -1236,43 +1003,43 @@
                     "7F5D7B21A1281585559073410"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-color": "#ffffff",
+                "text-halo-width": {
+                    "property": "halo",
+                    "type": "identity"
+                },
+                "text-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
-                "text-justify": "center",
+                "icon-size": 1,
                 "text-font": [
                     "STHeiti-Regular"
                 ],
-                "icon-image": "{icon}",
-                "text-size": {
-                    "type": "identity",
-                    "property": "fontsize"
-                },
-                "text-max-width": 7,
+                "text-padding": 2,
+                "text-justify": "center",
                 "text-field": "{title}",
+                "text-max-width": 7,
+                "text-size": {
+                    "property": "fontsize",
+                    "type": "identity"
+                },
                 "text-offset": {
-                    "type": "identity",
-                    "property": "offset"
+                    "property": "offset",
+                    "type": "identity"
                 },
-                "icon-size": 1,
-                "text-padding": 2
+                "icon-image": "{icon}"
             },
+            "id": "textpoint_relique",
             "maxzoom": 9,
-            "type": "symbol",
-            "minzoom": 8,
-            "id": "textpoint_8_18",
-            "paint": {
-                "text-halo-width": {
-                    "type": "identity",
-                    "property": "halo"
-                },
-                "text-halo-color": "#ffffff",
-                "text-color": {
-                    "type": "identity",
-                    "property": "color"
-                }
-            },
+            "minzoom": 13
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -1281,43 +1048,43 @@
                     "7F5D7B2219401585559073416"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-color": "#ffffff",
+                "text-halo-width": {
+                    "property": "halo",
+                    "type": "identity"
+                },
+                "text-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
-                "text-justify": "center",
+                "icon-size": 1,
                 "text-font": [
                     "STHeiti-Regular"
                 ],
-                "icon-image": "{icon}",
-                "text-size": {
-                    "type": "identity",
-                    "property": "fontsize"
-                },
-                "text-max-width": 7,
+                "text-padding": 2,
+                "text-justify": "center",
                 "text-field": "{title}",
+                "text-max-width": 7,
+                "text-size": {
+                    "property": "fontsize",
+                    "type": "identity"
+                },
                 "text-offset": {
-                    "type": "identity",
-                    "property": "offset"
+                    "property": "offset",
+                    "type": "identity"
                 },
-                "icon-size": 1,
-                "text-padding": 2
+                "icon-image": "{icon}"
             },
+            "id": "textpoint_8_18",
             "maxzoom": 9,
-            "type": "symbol",
-            "minzoom": 7,
-            "id": "textpoint_7_18",
-            "paint": {
-                "text-halo-width": {
-                    "type": "identity",
-                    "property": "halo"
-                },
-                "text-halo-color": "#ffffff",
-                "text-color": {
-                    "type": "identity",
-                    "property": "color"
-                }
-            },
+            "minzoom": 8
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -1326,43 +1093,43 @@
                     "7F5D7BFDB3201585559073449"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-color": "#ffffff",
+                "text-halo-width": {
+                    "property": "halo",
+                    "type": "identity"
+                },
+                "text-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
-                "text-justify": "center",
+                "icon-size": 1,
                 "text-font": [
                     "STHeiti-Regular"
                 ],
-                "icon-image": "{icon}",
-                "text-size": {
-                    "type": "identity",
-                    "property": "fontsize"
-                },
-                "text-max-width": 7,
+                "text-padding": 2,
+                "text-justify": "center",
                 "text-field": "{title}",
+                "text-max-width": 7,
+                "text-size": {
+                    "property": "fontsize",
+                    "type": "identity"
+                },
                 "text-offset": {
-                    "type": "identity",
-                    "property": "offset"
+                    "property": "offset",
+                    "type": "identity"
                 },
-                "icon-size": 1,
-                "text-padding": 2
+                "icon-image": "{icon}"
             },
+            "id": "textpoint_7_18",
             "maxzoom": 9,
-            "type": "symbol",
-            "minzoom": 6,
-            "id": "textpoint_6_18",
-            "paint": {
-                "text-halo-width": {
-                    "type": "identity",
-                    "property": "halo"
-                },
-                "text-halo-color": "#ffffff",
-                "text-color": {
-                    "type": "identity",
-                    "property": "color"
-                }
-            },
+            "minzoom": 7
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -1371,43 +1138,43 @@
                     "7F5D7BFDB5C01585559073453"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-color": "#ffffff",
+                "text-halo-width": {
+                    "property": "halo",
+                    "type": "identity"
+                },
+                "text-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
-                "text-justify": "center",
+                "icon-size": 1,
                 "text-font": [
                     "STHeiti-Regular"
                 ],
-                "icon-image": "{icon}",
-                "text-size": {
-                    "type": "identity",
-                    "property": "fontsize"
-                },
-                "text-max-width": 7,
+                "text-padding": 2,
+                "text-justify": "center",
                 "text-field": "{title}",
+                "text-max-width": 7,
+                "text-size": {
+                    "property": "fontsize",
+                    "type": "identity"
+                },
                 "text-offset": {
-                    "type": "identity",
-                    "property": "offset"
+                    "property": "offset",
+                    "type": "identity"
                 },
-                "icon-size": 1,
-                "text-padding": 2
+                "icon-image": "{icon}"
             },
+            "id": "textpoint_6_18",
             "maxzoom": 9,
-            "type": "symbol",
-            "minzoom": 4,
-            "id": "textpoint_4_18",
-            "paint": {
-                "text-halo-width": {
-                    "type": "identity",
-                    "property": "halo"
-                },
-                "text-halo-color": "#ffffff",
-                "text-color": {
-                    "type": "identity",
-                    "property": "color"
-                }
-            },
+            "minzoom": 6
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -1421,43 +1188,43 @@
                     "103:1585278502279"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-color": "#ffffff",
+                "text-halo-width": {
+                    "property": "halo",
+                    "type": "identity"
+                },
+                "text-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
-                "text-justify": "center",
+                "icon-size": 1,
                 "text-font": [
                     "STHeiti-Regular"
                 ],
-                "icon-image": "{icon}",
-                "text-size": {
-                    "type": "identity",
-                    "property": "fontsize"
-                },
-                "text-max-width": 7,
+                "text-padding": 2,
+                "text-justify": "center",
                 "text-field": "{title}",
+                "text-max-width": 7,
+                "text-size": {
+                    "property": "fontsize",
+                    "type": "identity"
+                },
                 "text-offset": {
-                    "type": "identity",
-                    "property": "offset"
+                    "property": "offset",
+                    "type": "identity"
                 },
-                "icon-size": 1,
-                "text-padding": 2
+                "icon-image": "{icon}"
             },
+            "id": "textpoint_4_18",
             "maxzoom": 9,
-            "type": "symbol",
-            "minzoom": 3,
-            "id": "textpoint_3_18",
-            "paint": {
-                "text-halo-width": {
-                    "type": "identity",
-                    "property": "halo"
-                },
-                "text-halo-color": "#ffffff",
-                "text-color": {
-                    "type": "identity",
-                    "property": "color"
-                }
-            },
+            "minzoom": 4
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -1471,43 +1238,43 @@
                     "103:1585278502279"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-color": "#ffffff",
+                "text-halo-width": {
+                    "property": "halo",
+                    "type": "identity"
+                },
+                "text-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
-                "text-justify": "center",
+                "icon-size": 1,
                 "text-font": [
                     "STHeiti-Regular"
                 ],
-                "icon-image": "{icon}",
-                "text-size": {
-                    "type": "identity",
-                    "property": "fontsize"
-                },
-                "text-max-width": 7,
+                "text-padding": 2,
+                "text-justify": "center",
                 "text-field": "{title}",
+                "text-max-width": 7,
+                "text-size": {
+                    "property": "fontsize",
+                    "type": "identity"
+                },
                 "text-offset": {
-                    "type": "identity",
-                    "property": "offset"
+                    "property": "offset",
+                    "type": "identity"
                 },
-                "icon-size": 1,
-                "text-padding": 2
+                "icon-image": "{icon}"
             },
+            "id": "textpoint_3_18",
             "maxzoom": 9,
-            "type": "symbol",
-            "minzoom": 2,
-            "id": "textpoint_2_18",
-            "paint": {
-                "text-halo-width": {
-                    "type": "identity",
-                    "property": "halo"
-                },
-                "text-halo-color": "#ffffff",
-                "text-color": {
-                    "type": "identity",
-                    "property": "color"
-                }
-            },
+            "minzoom": 3
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -1521,43 +1288,43 @@
                     "103:1585278502279"
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-color": "#ffffff",
+                "text-halo-width": {
+                    "property": "halo",
+                    "type": "identity"
+                },
+                "text-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
-                "text-justify": "center",
+                "icon-size": 1,
                 "text-font": [
                     "STHeiti-Regular"
                 ],
-                "icon-image": "{icon}",
-                "text-size": {
-                    "type": "identity",
-                    "property": "fontsize"
-                },
-                "text-max-width": 7,
+                "text-padding": 2,
+                "text-justify": "center",
                 "text-field": "{title}",
+                "text-max-width": 7,
+                "text-size": {
+                    "property": "fontsize",
+                    "type": "identity"
+                },
                 "text-offset": {
-                    "type": "identity",
-                    "property": "offset"
+                    "property": "offset",
+                    "type": "identity"
                 },
-                "icon-size": 1,
-                "text-padding": 2
+                "icon-image": "{icon}"
             },
+            "id": "textpoint_2_18",
             "maxzoom": 9,
-            "type": "symbol",
-            "minzoom": 8,
-            "id": "textpoint_hover_8_18",
-            "paint": {
-                "text-halo-width": {
-                    "type": "identity",
-                    "property": "halo"
-                },
-                "text-halo-color": "#ffffff",
-                "text-color": {
-                    "type": "identity",
-                    "property": "color"
-                }
-            },
+            "minzoom": 2
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -1571,43 +1338,43 @@
                     ""
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-color": "#ffffff",
+                "text-halo-width": {
+                    "property": "halo",
+                    "type": "identity"
+                },
+                "text-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
-                "text-justify": "center",
+                "icon-size": 1,
                 "text-font": [
                     "STHeiti-Regular"
                 ],
-                "icon-image": "{icon}",
-                "text-size": {
-                    "type": "identity",
-                    "property": "fontsize"
-                },
-                "text-max-width": 7,
+                "text-padding": 2,
+                "text-justify": "center",
                 "text-field": "{title}",
+                "text-max-width": 7,
+                "text-size": {
+                    "property": "fontsize",
+                    "type": "identity"
+                },
                 "text-offset": {
-                    "type": "identity",
-                    "property": "offset"
+                    "property": "offset",
+                    "type": "identity"
                 },
-                "icon-size": 1,
-                "text-padding": 2
+                "icon-image": "{icon}"
             },
+            "id": "textpoint_hover_8_18",
             "maxzoom": 9,
-            "type": "symbol",
-            "minzoom": 7,
-            "id": "textpoint_hover_7_18",
-            "paint": {
-                "text-halo-width": {
-                    "type": "identity",
-                    "property": "halo"
-                },
-                "text-halo-color": "#ffffff",
-                "text-color": {
-                    "type": "identity",
-                    "property": "color"
-                }
-            },
+            "minzoom": 8
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -1621,43 +1388,43 @@
                     ""
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-color": "#ffffff",
+                "text-halo-width": {
+                    "property": "halo",
+                    "type": "identity"
+                },
+                "text-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
-                "text-justify": "center",
+                "icon-size": 1,
                 "text-font": [
                     "STHeiti-Regular"
                 ],
-                "icon-image": "{icon}",
-                "text-size": {
-                    "type": "identity",
-                    "property": "fontsize"
-                },
-                "text-max-width": 7,
+                "text-padding": 2,
+                "text-justify": "center",
                 "text-field": "{title}",
+                "text-max-width": 7,
+                "text-size": {
+                    "property": "fontsize",
+                    "type": "identity"
+                },
                 "text-offset": {
-                    "type": "identity",
-                    "property": "offset"
+                    "property": "offset",
+                    "type": "identity"
                 },
-                "icon-size": 1,
-                "text-padding": 2
+                "icon-image": "{icon}"
             },
+            "id": "textpoint_hover_7_18",
             "maxzoom": 9,
-            "type": "symbol",
-            "minzoom": 6,
-            "id": "textpoint_hover_6_18",
-            "paint": {
-                "text-halo-width": {
-                    "type": "identity",
-                    "property": "halo"
-                },
-                "text-halo-color": "#ffffff",
-                "text-color": {
-                    "type": "identity",
-                    "property": "color"
-                }
-            },
+            "minzoom": 7
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -1671,43 +1438,43 @@
                     ""
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-color": "#ffffff",
+                "text-halo-width": {
+                    "property": "halo",
+                    "type": "identity"
+                },
+                "text-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
-                "text-justify": "center",
+                "icon-size": 1,
                 "text-font": [
                     "STHeiti-Regular"
                 ],
-                "icon-image": "{icon}",
-                "text-size": {
-                    "type": "identity",
-                    "property": "fontsize"
-                },
-                "text-max-width": 7,
+                "text-padding": 2,
+                "text-justify": "center",
                 "text-field": "{title}",
+                "text-max-width": 7,
+                "text-size": {
+                    "property": "fontsize",
+                    "type": "identity"
+                },
                 "text-offset": {
-                    "type": "identity",
-                    "property": "offset"
+                    "property": "offset",
+                    "type": "identity"
                 },
-                "icon-size": 1,
-                "text-padding": 2
+                "icon-image": "{icon}"
             },
+            "id": "textpoint_hover_6_18",
             "maxzoom": 9,
-            "type": "symbol",
-            "minzoom": 4,
-            "id": "textpoint_hover_4_18",
-            "paint": {
-                "text-halo-width": {
-                    "type": "identity",
-                    "property": "halo"
-                },
-                "text-halo-color": "#ffffff",
-                "text-color": {
-                    "type": "identity",
-                    "property": "color"
-                }
-            },
+            "minzoom": 6
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -1721,43 +1488,43 @@
                     ""
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-color": "#ffffff",
+                "text-halo-width": {
+                    "property": "halo",
+                    "type": "identity"
+                },
+                "text-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
-                "text-justify": "center",
+                "icon-size": 1,
                 "text-font": [
                     "STHeiti-Regular"
                 ],
-                "icon-image": "{icon}",
-                "text-size": {
-                    "type": "identity",
-                    "property": "fontsize"
-                },
-                "text-max-width": 7,
+                "text-padding": 2,
+                "text-justify": "center",
                 "text-field": "{title}",
+                "text-max-width": 7,
+                "text-size": {
+                    "property": "fontsize",
+                    "type": "identity"
+                },
                 "text-offset": {
-                    "type": "identity",
-                    "property": "offset"
+                    "property": "offset",
+                    "type": "identity"
                 },
-                "icon-size": 1,
-                "text-padding": 2
+                "icon-image": "{icon}"
             },
+            "id": "textpoint_hover_4_18",
             "maxzoom": 9,
-            "type": "symbol",
-            "minzoom": 3,
-            "id": "textpoint_hover_3_18",
-            "paint": {
-                "text-halo-width": {
-                    "type": "identity",
-                    "property": "halo"
-                },
-                "text-halo-color": "#ffffff",
-                "text-color": {
-                    "type": "identity",
-                    "property": "color"
-                }
-            },
+            "minzoom": 4
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -1771,43 +1538,43 @@
                     ""
                 ]
             ],
-            "source": "dlsgis_his_regime"
-        },
-        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-color": "#ffffff",
+                "text-halo-width": {
+                    "property": "halo",
+                    "type": "identity"
+                },
+                "text-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
             "layout": {
-                "text-justify": "center",
+                "icon-size": 1,
                 "text-font": [
                     "STHeiti-Regular"
                 ],
-                "icon-image": "{icon}",
-                "text-size": {
-                    "type": "identity",
-                    "property": "fontsize"
-                },
-                "text-max-width": 7,
+                "text-padding": 2,
+                "text-justify": "center",
                 "text-field": "{title}",
+                "text-max-width": 7,
+                "text-size": {
+                    "property": "fontsize",
+                    "type": "identity"
+                },
                 "text-offset": {
-                    "type": "identity",
-                    "property": "offset"
+                    "property": "offset",
+                    "type": "identity"
                 },
-                "icon-size": 1,
-                "text-padding": 2
+                "icon-image": "{icon}"
             },
+            "id": "textpoint_hover_3_18",
             "maxzoom": 9,
-            "type": "symbol",
-            "minzoom": 2,
-            "id": "textpoint_hover_2_18",
-            "paint": {
-                "text-halo-width": {
-                    "type": "identity",
-                    "property": "halo"
-                },
-                "text-halo-color": "#ffffff",
-                "text-color": {
-                    "type": "identity",
-                    "property": "color"
-                }
-            },
+            "minzoom": 3
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -1821,74 +1588,57 @@
                     ""
                 ]
             ],
-            "source": "dlsgis_his_regime"
+            "type": "symbol",
+            "paint": {
+                "text-halo-color": "#ffffff",
+                "text-halo-width": {
+                    "property": "halo",
+                    "type": "identity"
+                },
+                "text-color": {
+                    "property": "color",
+                    "type": "identity"
+                }
+            },
+            "source": "dlsgis_his_regime",
+            "layout": {
+                "icon-size": 1,
+                "text-font": [
+                    "STHeiti-Regular"
+                ],
+                "text-padding": 2,
+                "text-justify": "center",
+                "text-field": "{title}",
+                "text-max-width": 7,
+                "text-size": {
+                    "property": "fontsize",
+                    "type": "identity"
+                },
+                "text-offset": {
+                    "property": "offset",
+                    "type": "identity"
+                },
+                "icon-image": "{icon}"
+            },
+            "id": "textpoint_hover_2_18",
+            "maxzoom": 9,
+            "minzoom": 2
         }
     ],
-    "pitch": 0,
-    "center": [
-        8.542,
-        47.372
-    ],
-    "zoom": 2,
-    "sprite": "https://cmaptile.allhistory.com/v1/styles/dlsgis-history/sprite",
-    "id": "DLSGIS His Regime AD336",
-    "name": "DLSGIS His Regime AD336",
-    "glyphs": "https://cmaptile.allhistory.com/v1/fonts/{fontstack}/{range}.pbf",
     "sources": {
-        "dlsgis_his_regime": {
-            "type": "geojson",
-            "data": "https://raw.githubusercontent.com/sxc562586657/open-history-map-data/master/geojsons/AD330.geojson"
-        },
-        "dlsgis_base": {
-            "type": "vector",
-            "tiles": [
-                "https://tileserver-history-map.herokuapp.com/data/dlsgis_base/{z}/{x}/{y}.pbf"
-            ]
-        },
         "dlsgis_attachment": {
             "type": "vector",
             "tiles": [
                 "https://cmaptile.allhistory.com/v9/data/dlsgis_attachment/{z}/{x}/{y}.pbf"
             ]
-        }
-    },
-    "version": 8,
-    "bearing": 0,
-    "metadata": {
-        "openmaptiles:version": "3.x",
-        "openmaptiles:mapbox:owner": "openmaptiles",
-        "mapbox:autocomposite": false,
-        "mapbox:type": "template",
-        "mapbox:groups": {
-            "1444849382550.77": {
-                "collapsed": false,
-                "name": "Water"
-            },
-            "1444849242106.713": {
-                "collapsed": false,
-                "name": "Places"
-            },
-            "1444849388993.3071": {
-                "collapsed": false,
-                "name": "Land"
-            },
-            "1444849345966.4436": {
-                "collapsed": false,
-                "name": "Roads"
-            },
-            "1444849334699.1902": {
-                "collapsed": true,
-                "name": "Bridges"
-            },
-            "1444849364238.8171": {
-                "collapsed": false,
-                "name": "Buildings"
-            },
-            "1444849354174.1904": {
-                "collapsed": true,
-                "name": "Tunnels"
-            }
         },
-        "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t"
+        "dlsgis_base": {
+            "type": "geojson",
+            "data": "https://raw.githubusercontent.com/sxc562586657/open-history-map-data/master/styles/base.json"
+        },
+        "dlsgis_his_regime": {
+            "type": "geojson",
+            "data": "https://raw.githubusercontent.com/sxc562586657/open-history-map-data/master/geojsons/AD330.geojson"
+        }
     }
 }
