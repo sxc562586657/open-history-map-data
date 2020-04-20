@@ -50,6 +50,18 @@
     "zoom": 2,
     "layers": [
         {
+            "id": "background",
+            "maxzoom": 9,
+            "type": "background",
+            "paint": {
+                "background-color": "#10446C"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "minzoom": 0
+        },
+        {
             "filter": [
                 "all",
                 [
@@ -1658,18 +1670,6 @@
             "id": "textpoint_hover_2_18",
             "maxzoom": 9,
             "minzoom": 2
-        },
-        {
-            "id": "background",
-            "maxzoom": 9,
-            "type": "background",
-            "paint": {
-                "background-color": "#10446C"
-            },
-            "layout": {
-                "visibility": "visible"
-            },
-            "minzoom": 0
         }
     ],
     "sources": {
