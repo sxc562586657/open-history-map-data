@@ -1694,7 +1694,7 @@
         },
         "dlsgis_base": {
             "type": "geojson",
-            "data": "https://raw.githubusercontent.com/sxc562586657/open-history-map-data/master/styles/base.json"
+            "data": "https://raw.githubusercontent.com/sxc562586657/open-history-map-data/master/geojsons/base.geojson"
         },
         "dlsgis_his_regime": {
             "type": "geojson",
