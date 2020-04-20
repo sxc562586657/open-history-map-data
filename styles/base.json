@@ -291,6 +291,18 @@
             "maxzoom": 9,
             "source-layer": "2B72DD164D301583908697257",
             "minzoom": 5
+        },
+        {
+            "id": "background",
+            "maxzoom": 9,
+            "type": "background",
+            "paint": {
+                "background-color": "#10446C"
+            },
+            "layout": {
+                "visibility": "visible"
+            },
+            "minzoom": 0
         }
     ],
     "sources": {
